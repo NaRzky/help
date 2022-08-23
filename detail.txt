@@ -1,0 +1,53 @@
+Detail VPS:
+[[ AZURE ]] 
+Specification:
+-> Standard B1ms 
+-> 1 vcpu
+->  2 GiB memory
+
+
+-> Region: Japan East
+-> Created: 2022-08-23
+
+
+-> IP Adress: 20.78.81.201
+-> Username: root
+-> Password: GPr7nImnmCvA
+
+Note:
+
+How to run auto clear chance?
+bash autoclearchance.sh
+
+How to run hard clear chance?
+bash hardclearchance.sh
+
+How to run installer
+bash installer.sh
+
+How to run Generate Password
+bash genpasswd.sh
+
+Note:
+[!] Installer will install zip & unzip, python3, golang, node-js & lts and some pip3 module
+if you want more capacity for your server, just install what you need by manualling install.
+
+[!] Hard clear chance maybe can kill your program process
+in your server.
+
+[!] Change password VPS using command `passwd`. Use Generate Password for more secure password.
+Use script for generate password
+
+for Azure / Linode
+bash genpasswd.sh
+for Digital Ocean
+python3 genpasswd.py
+
+[!] WARNING !!!
+DO NOT USE IT TO PERFORM ILLEGAL ACTIONS, SUCH AS HACKING, PISHING, DDOS ATTACK. CANNOT BE USED FOR MINING.
+SERVER CANNOT OVERLOAD (MAX 80%) OF CPU USE
+IF A SUSPEND HAPPENED DUE TO USER ACTION. THEN THERE IS NO WARRANTY
+VALID SERVER 30 DAYS
+
+use a complex password, to be more secure.
+data leaks due to password sharing or weak passwords are beyond our responsibility   
